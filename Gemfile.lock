@@ -228,9 +228,9 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
-    rack (2.0.6)
-    rack-contrib (1.1.0)
-      rack (>= 0.9.1)
+    rack (3.0.11)
+    rack-contrib (2.5.0)
+      rack (< 4)
     rake (12.3.2)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
@@ -266,8 +266,8 @@ DEPENDENCIES
   github-pages
   html-proofer
   jekyll-octicons
-  rack-contrib (~> 1.1.0)
+  rack-contrib (~> 2.5.0)
   rake
 
 BUNDLED WITH
-   1.16.3
+   1.17.3
